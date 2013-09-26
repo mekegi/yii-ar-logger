@@ -17,11 +17,12 @@ class m130723_114204_ar_log_changes extends CDbMigration
                 'new' => 'string',
                 'title' => 'string',
                 'add_info' => 'text',
-            ],
-            'ENGINE=InnoDb');
+            ]
+            ,'ENGINE=InnoDb' // remove this line if you dont use Mysql
+        );
 
         $this->addForeignKey(
-            'fk_user3443',
+            'fk_user_log_changes',
             self::TABLE,
             'fk_user',
             'user',
@@ -30,7 +31,7 @@ class m130723_114204_ar_log_changes extends CDbMigration
         );
 
         $this->addForeignKey(
-            'fk_log_session4556',
+            'fk_log_session_for_changes',
             self::TABLE,
             'fk_log_session',
             'log_session',
@@ -39,7 +40,7 @@ class m130723_114204_ar_log_changes extends CDbMigration
         );
 
         $this->createIndex('variable1', self::TABLE, 'variable');
-        $this->createIndex('generic123', self::TABLE, 'generic_type, generic_id');
+        $this->createIndex('generic1', self::TABLE, 'generic_type, generic_id');
 	}
 
 	public function down()

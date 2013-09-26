@@ -12,11 +12,12 @@ class m130723_113552_ar_logger_models extends CDbMigration
                 'action' => 'string',
                 'controller' => 'string',
                 'url' => 'string',
-            ],
-            'ENGINE=InnoDb');
+            ]
+            ,'ENGINE=InnoDb' // remove this line if you dont use Mysql
+        );
 
         $this->addForeignKey(
-            'fk_user4556',
+            'fk_user_log_session',
             self::TABLE,
             'fk_user',
             'user',
