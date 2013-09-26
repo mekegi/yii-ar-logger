@@ -1,0 +1,22 @@
+{
+    "name": "mekegi/YiiArLogger",
+    "description": "Active Record change logger for the Yii PHP framework.",
+    "keywords": ["yii", "logger", "active record"],
+    "version": "0.0.1",
+    "type": "yii-extension",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "ar-logger/Behavior.php",
+            "ar-logger/DbBahavior.php",
+            "ar-logger/FileBahavior.php",
+        ]
+    },
+    "authors": [
+        {
+            "name": "Arsen Abdusalamov",
+            "email": "duburlan@gmail.com",
+            "homepage": "http://github.com/mekegi"
+        }
+    ]
+}
