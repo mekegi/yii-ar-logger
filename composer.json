@@ -9,7 +9,7 @@
         "classmap": [
             "ar-logger/Behavior.php",
             "ar-logger/DbBahavior.php",
-            "ar-logger/FileBahavior.php",
+            "ar-logger/FileBahavior.php"
         ]
     },
     "authors": [
