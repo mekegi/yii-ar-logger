@@ -1,22 +1,25 @@
 {
     "name": "mekegi/YiiArLogger",
-    "description": "Active Record change logger for the Yii PHP framework.",
-    "keywords": ["yii", "logger", "active record"],
-    "version": "0.0.1",
+    "description": "Geocoder for convert plain adress to structured address",
+    "keywords": ["google-maps-api", "yandex-geo", "yii-extension", "geocoder"],
+    "version": "1.0.0",
     "type": "yii-extension",
+    "homepage": "http://github.com/mekegi/geocoder",
     "license": "MIT",
     "autoload": {
         "classmap": [
             "ar-logger/Behavior.php",
             "ar-logger/DbBahavior.php",
-            "ar-logger/FileBahavior.php",
+            "ar-logger/FileBahavior.php"
         ]
     },
     "authors": [
         {
             "name": "Arsen Abdusalamov",
-            "email": "duburlan@gmail.com",
-            "homepage": "http://github.com/mekegi"
+            "email": "duburlan@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    }
 }
