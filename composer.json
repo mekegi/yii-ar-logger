@@ -8,9 +8,9 @@
     "license": "MIT",
     "autoload": {
         "classmap": [
-            "ar-logger/Behavior.php",
-            "ar-logger/DbBahavior.php",
-            "ar-logger/FileBahavior.php"
+            "Behavior.php",
+            "DbBahavior.php",
+            "FileBahavior.php"
         ]
     },
     "authors": [
