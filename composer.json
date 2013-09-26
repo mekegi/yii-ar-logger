@@ -9,8 +9,8 @@
     "autoload": {
         "classmap": [
             "Behavior.php",
-            "DbBahavior.php",
-            "FileBahavior.php"
+            "DbBehavior.php",
+            "FileBehavior.php"
         ]
     },
     "authors": [
